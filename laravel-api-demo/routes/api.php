@@ -27,6 +27,7 @@ $api->version(['v1', 'v2'], function($api) {
     });
 });
 
+// v1版本的API
 $api->version('v1', function($api) {
     $api->group(['namespace' => 'App\Http\Controllers\Api\V1'], function($api) {
         $api->get('articles', 'ArticleController@index');
@@ -38,5 +39,13 @@ $api->version('v1', function($api) {
                 'create', 'edit'
             ]]);
         });
+    });
+});
+
+// v2版本的API
+// header里面需要加 Accept:application/vnd.laravel-api-demo.v2+json
+$api->version('v2', function($api) {
+    $api->group(['namespace' => 'App\Http\Controllers\Api\V2'], function($api) {
+        $api->get('articles', 'ArticleController@index');
     });
 });
