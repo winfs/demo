@@ -1,0 +1,17 @@
+{
+  "skins": {
+    "SceneBegin": "src/game/SceneBeginSkin.exml",
+    "SceneLevels": "src/game/SceneLevelsSkin.exml",
+    "LevelIcon": "src/game/LevelIconSkin.exml",
+    "SceneGame": "src/game/SceneGameSkin.exml",
+    "Word": "src/game/WordSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/skins/WordSkin.exml",
+    "resource/skins/GameSceneSkin.exml",
+    "resource/skins/LevelIconSkin.exml",
+    "resource/skins/LevelSceneSkin.exml",
+    "resource/skins/StartSceneSkin.exml"
+  ]
+}

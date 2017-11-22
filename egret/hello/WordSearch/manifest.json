@@ -1,0 +1,28 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"promise/bin/promise.js"
+	],
+	"game": [
+		"bin-debug/LoadingUI.js",
+		"bin-debug/game/LineTween.js",
+		"bin-debug/Main.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/game/AppConfig.js",
+		"bin-debug/game/Board.js",
+		"bin-debug/game/Char.js",
+		"bin-debug/game/Line.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/game/Trie.js",
+		"bin-debug/game/TrieNode.js",
+		"bin-debug/game/Word.js",
+		"bin-debug/scenes/GameScene.js",
+		"bin-debug/utils/AppUtil.js",
+		"bin-debug/utils/ArrayUtil.js",
+		"bin-debug/utils/MathUtil.js"
+	]
+}

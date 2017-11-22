@@ -1,0 +1,10 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false
+  },
+  "15f327c510a": {
+    "path": "game\\StartSceneSkin.ts",
+    "class": "StartSceneSkin",
+    "parentPath": ""
+  }
+}

@@ -1,0 +1,110 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,b1_png,bg_jpg,bgGrey_png,bloodBar_png,bloodBarBg_png,btn_start_png,boss_png,buff_blood_png,enemyBullet_png,f1_png,game-over_png,f2_png,hp_png,restart_png,resultBg_png,test_fnt,test_png,title_png,b2_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"name": "b1_png",
+			"type": "image",
+			"url": "assets/b1.png"
+		},
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "bgGrey_png",
+			"type": "image",
+			"url": "assets/bgGrey.png"
+		},
+		{
+			"name": "bloodBar_png",
+			"type": "image",
+			"url": "assets/bloodBar.png"
+		},
+		{
+			"name": "bloodBarBg_png",
+			"type": "image",
+			"url": "assets/bloodBarBg.png"
+		},
+		{
+			"name": "btn_start_png",
+			"type": "image",
+			"url": "assets/btn_start.png"
+		},
+		{
+			"name": "boss_png",
+			"type": "image",
+			"url": "assets/boss.png"
+		},
+		{
+			"name": "buff_blood_png",
+			"type": "image",
+			"url": "assets/buff_blood.png"
+		},
+		{
+			"name": "enemyBullet_png",
+			"type": "image",
+			"url": "assets/enemyBullet.png"
+		},
+		{
+			"name": "f1_png",
+			"type": "image",
+			"url": "assets/f1.png"
+		},
+		{
+			"name": "game-over_png",
+			"type": "image",
+			"url": "assets/game-over.png"
+		},
+		{
+			"name": "f2_png",
+			"type": "image",
+			"url": "assets/f2.png"
+		},
+		{
+			"name": "hp_png",
+			"type": "image",
+			"url": "assets/hp.png"
+		},
+		{
+			"name": "restart_png",
+			"type": "image",
+			"url": "assets/restart.png"
+		},
+		{
+			"name": "resultBg_png",
+			"type": "image",
+			"url": "assets/resultBg.png"
+		},
+		{
+			"name": "test_fnt",
+			"type": "font",
+			"url": "assets/test.fnt"
+		},
+		{
+			"name": "test_png",
+			"type": "image",
+			"url": "assets/test.png"
+		},
+		{
+			"name": "title_png",
+			"type": "image",
+			"url": "assets/title.png"
+		},
+		{
+			"name": "b2_png",
+			"type": "image",
+			"url": "assets/b2.png"
+		}
+	]
+}

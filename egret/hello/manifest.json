@@ -1,0 +1,27 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"promise/bin/promise.js"
+	],
+	"game": [
+		"bin-debug/WordSearch/src/AssetAdapter.js",
+		"bin-debug/appConfig.js",
+		"bin-debug/Main.js",
+		"bin-debug/Solution.js",
+		"bin-debug/Trie.js",
+		"bin-debug/TrieNode.js",
+		"bin-debug/Word.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/WordSearch/src/GameScene.js",
+		"bin-debug/WordSearch/src/LoadingUI.js",
+		"bin-debug/WordSearch/src/Main.js",
+		"bin-debug/WordSearch/src/ThemeAdapter.js",
+		"bin-debug/WordSearch/src/Word.js",
+		"bin-debug/WordSearch/src/utils/ArrayUtil.js",
+		"bin-debug/WordSearch/src/utils/MathUtil.js"
+	]
+}

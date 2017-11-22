@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.GameSceneSkin" width="720" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="game.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="GameBG3_jpg" left="0" top="0" bottom="0" right="0"/>
+	<e:Image source="WordFrame_png" x="38" y="121"/>
+	<e:Group id="group_words" width="538" height="417" x="108" y="637">
+		<ns1:Word x="80" y="106" skinName="skins.WordSkin"/>
+        <ns1:Word y="116" x="90" skinName="skins.WordSkin"/>
+        <ns1:Word y="126" x="100" skinName="skins.WordSkin"/>
+        <ns1:Word y="136" x="110" skinName="skins.WordSkin"/>
+        <ns1:Word y="146" x="120" skinName="skins.WordSkin"/>
+        <ns1:Word y="156" x="130" skinName="skins.WordSkin"/>
+        <ns1:Word y="166" x="140" skinName="skins.WordSkin"/>
+        <ns1:Word y="176" x="150" skinName="skins.WordSkin"/>
+        <ns1:Word y="186" x="160" skinName="skins.WordSkin"/>
+        <ns1:Word y="196" x="170" skinName="skins.WordSkin"/>
+        <ns1:Word y="206" x="180" skinName="skins.WordSkin"/>
+        <ns1:Word y="216" x="190" skinName="skins.WordSkin"/>
+        <ns1:Word y="226" x="200" skinName="skins.WordSkin"/>
+        <ns1:Word y="236" x="210" skinName="skins.WordSkin"/>
+        <ns1:Word y="246" x="220" skinName="skins.WordSkin"/>
+        <ns1:Word y="256" x="230" skinName="skins.WordSkin"/>
+        <ns1:Word y="266" x="240" skinName="skins.WordSkin"/>
+        <ns1:Word y="276" x="250" skinName="skins.WordSkin"/>
+        <ns1:Word y="286" x="260" skinName="skins.WordSkin"/>
+        <ns1:Word y="296" x="270" skinName="skins.WordSkin"/>
+        <e:layout>
+            <e:TileLayout horizontalGap="30" verticalGap="30"/>
+        </e:layout>
+	</e:Group>
+     <e:Button id="btn_back" x="11" y="8">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="100%" height="100%" source="BackBtn_png" source.down="BackBtn1_png"/>
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Image id="img_question" width="390" height="260" y="179" horizontalCenter="0"/>
+	<e:Group id="group_answer" width="373" height="92" x="177" y="467" anchorOffsetY="0">
+		<ns1:AnswerWord skinName="skins.WordSkin" y="478" x="185"/>
+        <ns1:AnswerWord skinName="skins.WordSkin" y="478" x="284"/>
+        <ns1:AnswerWord skinName="skins.WordSkin" y="478" x="378"/>
+        <ns1:AnswerWord skinName="skins.WordSkin" y="478" x="475"/>
+        <e:layout>
+            <e:HorizontalLayout gap="15"/>
+        </e:layout>
+	</e:Group>
+	<e:Group id="group_win" left="0" top="0" bottom="0" right="0" visible="false">
+		<e:Rect left="0" top="0" bottom="0" right="0" fillAlpha="0.53"/>
+		<e:Image source="Result_png" verticalCenter="260" horizontalCenter="0"/>
+		<e:Button id="btn_next" x="432" y="941">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn_png" source.down="ResultBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lb_from" text="" x="113" y="700" textColor="0x000000" multiline="true" width="501" height="65" fontFamily="KaiTi"/>
+		<e:Label id="lb_explain" text="" x="113" y="805" textColor="0x000000" multiline="true" width="501" height="127" fontFamily="KaiTi"/>
+	</e:Group>
+</e:Skin>
